@@ -2,10 +2,17 @@
     "private": true,
     "scripts": {
         "clean": "rm -rf dist",
-        "start": "eleventy --serve"
+        "start": "eleventy --serve",
+        "solid.svg": "code node_modules/@fortawesome/fontawesome-free/sprites/solid.svg",
+        "regular.svg": "code node_modules/@fortawesome/fontawesome-free/sprites/regular.svg",
+        "brands.svg": "code node_modules/@fortawesome/fontawesome-free/sprites/brands.svg"
     },
     "dependencies": {
         "@11ty/eleventy": "^0.12.1",
+        "@fortawesome/fontawesome-free": "^5.15.3",
         "html-minifier": "^4.0.0"
+    },
+    "devDependencies": {
+        "bootstrap-icons": "^1.5.0"
     }
 }

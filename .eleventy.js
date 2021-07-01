@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig) {
     'netlifycms.yml': 'admin/config.yml',
     'site/favicon.ico': 'favicon.ico',
     'node_modules/alpinejs/dist/cdn.min.js': 'alpine.min.js',
-    'node_modules/@fortawesome/fontawesome-free/sprites': 'static/sprites',
+    'node_modules/bootstrap-icons/bootstrap-icons.svg': 'assets/bootstrap-icons.svg',
   })
 
   if (isProduction) {
