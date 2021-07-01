@@ -1,16 +1,13 @@
----
-permalink: /blog.html
----
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from paperpillar.com/blog by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jul 2021 12:18:17 GMT -->
+<!-- Mirrored from paperpillar.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jul 2021 12:17:35 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="We Are Paperpillar A team of passionate designers and developers from Yogyakarta">
-    <title>Blog | Paperpillar</title>
+    <title>Paperpillar</title>
     <!-- Styles-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.min.css">
@@ -18,81 +15,21 @@ permalink: /blog.html
     <!-- Favicon-->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <script src="../www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+      #eapps-form-1 .eapps-form-layout-default, #eapps-form-1 .eapps-form-layout-boxed{
+        padding: 0 !important;
+        border: none !important;
+        max-width: none !important;
+      }
+    </style>
   </head>
   <body>
     <div class="app">
-      <header>
-        <div class="header-container">
-          <div class="container">
-            <div class="header-section d-flex justify-content-between align-items-center">
-              <div class="header-logo"><a href="index.html"><img src="assets/images/logo-light.png"></a></div>
-              <div class="header-menu">
-                <ul class="nav nav-light">
-                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                  <li class="nav-item active"><a class="nav-link" href="blog.html">Blog</a></li>
-                  <li class="nav-item"><span class="nav-link" data-toggle="modal" data-target="#contactModal">Contact</span></li>
-                </ul>
-                <div class="mobile-menu"><span></span><span></span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="main-content blog">
-        <section class="blog-hero">
-          <div class="blog-hero-section">
-            <div class="blog-hero-bg">
-              <div class="blog-bg-rear"></div>
-              <div class="blog-bg-front"><img class="blog-bg-front__default" src="assets/images/blog-pattern-bg.png"><img class="blog-bg-front__large" src="assets/images/blog-pattern-bg-lg.png"></div>
-            </div>
-            <div class="blog-hero-char">
-              <div class="blog-guy-1"><img src="assets/images/blog-guy-1.png"></div>
-              <div class="blog-guy-2"><img src="assets/images/blog-guy-2.png"></div>
-              <div class="blog-guy-3"><img src="assets/images/blog-guy-3.png"></div>
-              <div class="blog-girl-1"><img src="assets/images/blog-girl-1.png"></div>
-            </div>
-            <div class="blog-hero-overlay"></div>
-            <div class="blog-hero-mask">
-              <div class="blog-white-mask"><img class="blog-white-mask__default" src="assets/images/blog-white-mask.png"><img class="blog-white-mask__large" src="assets/images/blog-white-mask-lg.png"></div>
-            </div>
-            <div class="blog-hero-text">
-              <div class="container">
-                <h1>Our Design Journal</h1>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="blogs">
-          <div class="container">
-            <div class="blogs-section masonry" id="blogs-lists">
-              <div class="grid-sizer"></div>
-              <div class="gutter-sizer"></div>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </section>
-      </div>
-      <footer>
-        <div class="footer-bg">
-          <div class="footer-pattern-bg"><img class="footer-pattern-bg__default" src="assets/images/footer-pattern-bg.png"><img class="footer-pattern-bg__large" src="assets/images/footer-pattern-bg-lg.png"></div>
-        </div>
-        <div class="footer-white-mask"><img class="footer-white-mask__default" src="assets/images/footer-white-mask.png"><img class="footer-white-mask__large" src="assets/images/footer-white-mask-lg.png"></div>
-        <div class="footer-container">
-          <div class="container">
-            <div class="footer-text text-center">
-              <p>Interested to work with us?</p>
-              <button class="btn btn-primary btn-talk" data-toggle="modal" data-target="#contactModal">Let's talk!</button>
-            </div>
-            <div class="footer-social">
-              <div class="social-container d-flex justify-content-center">
-                <div class="social-wrapper"><a href="https://www.instagram.com/paperpillar/" target="_blank" title="Instagram"><i class="icon-pp-instagram"></i></a></div>
-                <div class="social-wrapper"><a href="https://dribbble.com/paperpillar" target="_blank" title="Dribbble"><i class="icon-pp-dribbble"></i></a></div>
-                <div class="social-wrapper"><a href="https://www.behance.net/paperpillarstudio" target="_blank" title="Behance"><i class="icon-pp-behance"></i></a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      {% include _header.html %}
+      {{ content }}
+      {% if title != 404 %}
+        {% include _footer.html %}
+      {% endif %}
     </div>
     <div class="modal contact-modal fade" id="contactModal" role="dialog">
       <div class="modal-dialog modal-dialog-centered">
@@ -144,5 +81,5 @@ permalink: /blog.html
     </script>
   </body>
 
-<!-- Mirrored from paperpillar.com/blog by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jul 2021 12:18:25 GMT -->
+<!-- Mirrored from paperpillar.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jul 2021 12:18:17 GMT -->
 </html>
