@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "title": "UI/UX",
+      "description": "Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App",
+      "image": "/assets/vectors/uxui.svg",
+      "mask": "/assets/vectors/mask/uxui.svg"
+    },
+    {
+      "title": "Icon/Illustration",
+      "description": "Character Design, Icon Set, Illustration Guide, Illustration Set",
+      "image": "/assets/vectors/illustration.svg",
+      "mask": "/assets/vectors/mask/illustration.svg"
+    },
+    {
+      "title": "Branding",
+      "description": "Visual Identity, Stationary Kit, Marketing Materials",
+      "image": "/assets/vectors/branding.svg",
+      "mask": "/assets/vectors/mask/branding.svg"
+    },
+    {
+      "title": "Development",
+      "description": "HTML/CSS, JavaScript Animation, WordPress, Responsive Website",
+      "image": "/assets/vectors/development.svg",
+      "mask": "/assets/vectors/mask/development.svg"
+    },
+    {
+      "title": "Motion",
+      "description": "2D Animation, UI Motion",
+      "image": "/assets/vectors/motion.svg",
+      "mask": "/assets/vectors/mask/motion.svg"
+    },
+    {
+      "title": "Photography",
+      "description": "Travel Photography, Product Photography",
+      "image": "/assets/vectors/photography.svg",
+      "mask": "/assets/vectors/mask/photography.svg"
+    }
+  ],
+  "social": [
+    {
+      "title": "Instagram",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/paperpillar"
+    },
+    {
+      "title": "Github",
+      "icon": "github",
+      "url": "https://www.github.com/paperpillar"
+    }
+  ]
+}

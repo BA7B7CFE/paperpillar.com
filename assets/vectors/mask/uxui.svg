@@ -1,0 +1,25 @@
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch-->
+  <title>UIUX</title>
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <lineargradient id="ui-linearGradient-1" x1="35.6647303%" y1="31.8975636%" x2="76.464791%" y2="81.5711661%">
+      <stop stop-color="#9CB3FF" offset="0%"></stop>
+      <stop stop-color="#B0FFE9" offset="100%"></stop>
+    </lineargradient>
+    <clipPath id="ui-particle">
+      <path id="uiRect1" d="M86,83 L88,83 L88,81 L86,81 L86,83 Z M90,79 L90,85 L84,85 L84,79 L90,79 Z" fill="#FFFFFF" fill-rule="nonzero" transform="translate(87.000000, 82.000000) rotate(-315.000000) translate(-87.000000, -82.000000) "></path>
+      <path id="uiRect2" d="M92,122 L93,122 L93,121 L92,121 L92,122 Z M95,119 L95,124 L90,124 L90,119 L95,119 Z" fill="#FFFFFF" fill-rule="nonzero" transform="translate(92.500000, 121.500000) rotate(-315.000000) translate(-92.500000, -121.500000) "></path>
+      <path id="uiRect3" d="M125,108 L126,108 L126,107 L125,107 L125,108 Z M128,105 L128,110 L123,110 L123,105 L128,105 Z" fill="#FFFFFF" fill-rule="nonzero" transform="translate(125.500000, 107.500000) rotate(-315.000000) translate(-125.500000, -107.500000) "></path>
+      <path id="uiRect4" d="M86,83 L88,83 L88,81 L86,81 L86,83 Z M90,79 L90,85 L84,85 L84,79 L90,79 Z" fill="#FFFFFF" fill-rule="nonzero" transform="translate(87.000000, 82.000000) rotate(-315.000000) translate(-87.000000, -82.000000) "></path>
+    </clipPath>
+  </defs>
+  <g id="UI-Mask-Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="uiMask" clip-path="url(#ui-particle)">
+      <rect id="uiRectMask" fill="url(#ui-linearGradient-1)" x="0" y="0" width="200" height="200"></rect>
+      <circle id="uiCircleMask" fill="#FFFFFF" cx="100.5" cy="100.5" r="38.5" opacity=".7"></circle>
+    </g>
+  </g>
+</svg>

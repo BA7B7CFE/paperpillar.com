@@ -1,0 +1,25 @@
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch-->
+  <title>Illustration</title>
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <lineargradient id="linearGradient-1" x1="63.8378906%" y1="69.4511719%" x2="22.890625%" y2="26.2285156%">
+      <stop stop-color="#E7D1FF" offset="0%"></stop>
+      <stop stop-color="#8383EF" offset="100%"></stop>
+    </lineargradient>
+    <clipPath id="illus-particle">
+      <path id="illusCircle1" d="M82.5,86 C80.5670034,86 79,84.4329966 79,82.5 C79,80.5670034 80.5670034,79 82.5,79 C84.4329966,79 86,80.5670034 86,82.5 C86,84.4329966 84.4329966,86 82.5,86 Z M82.5,84 C83.3284271,84 84,83.3284271 84,82.5 C84,81.6715729 83.3284271,81 82.5,81 C81.6715729,81 81,81.6715729 81,82.5 C81,83.3284271 81.6715729,84 82.5,84 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+      <path id="illusCircle2" d="M117.5,89 C116.119288,89 115,87.8807119 115,86.5 C115,85.1192881 116.119288,84 117.5,84 C118.880712,84 120,85.1192881 120,86.5 C120,87.8807119 118.880712,89 117.5,89 Z M117.5,87 C117.776142,87 118,86.7761424 118,86.5 C118,86.2238576 117.776142,86 117.5,86 C117.223858,86 117,86.2238576 117,86.5 C117,86.7761424 117.223858,87 117.5,87 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+      <path id="illusCircle3" d="M107.5,123 C106.119288,123 105,121.880712 105,120.5 C105,119.119288 106.119288,118 107.5,118 C108.880712,118 110,119.119288 110,120.5 C110,121.880712 108.880712,123 107.5,123 Z M107.5,121 C107.776142,121 108,120.776142 108,120.5 C108,120.223858 107.776142,120 107.5,120 C107.223858,120 107,120.223858 107,120.5 C107,120.776142 107.223858,121 107.5,121 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+      <path id="illusCircle4" d="M82.5,86 C80.5670034,86 79,84.4329966 79,82.5 C79,80.5670034 80.5670034,79 82.5,79 C84.4329966,79 86,80.5670034 86,82.5 C86,84.4329966 84.4329966,86 82.5,86 Z M82.5,84 C83.3284271,84 84,83.3284271 84,82.5 C84,81.6715729 83.3284271,81 82.5,81 C81.6715729,81 81,81.6715729 81,82.5 C81,83.3284271 81.6715729,84 82.5,84 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </clipPath>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="illusMask" clip-path="url(#illus-particle)">
+      <rect id="illusRectMask" fill="url(#linearGradient-1)" x="0" y="0" width="200" height="200"></rect>
+      <circle id="illusCircleMask" fill="#FFFFFF" cx="100.5" cy="100.5" r="38.5" opacity=".7"></circle>
+    </g>
+  </g>
+</svg>

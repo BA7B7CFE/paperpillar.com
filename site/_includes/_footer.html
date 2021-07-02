@@ -33,26 +33,15 @@
       </div>
       <div class="footer-social">
         <div class="social-container d-flex justify-content-center">
-          <div class="social-wrapper">
-            <a
-              href="https://www.instagram.com/somosliana/"
-              target="_blank"
-              title="Instagram"
-              ><svg class="bi" width="24" height="24" fill="currentColor">
-                <use xlink:href="/assets/bootstrap-icons.svg#instagram"/>
-              </svg></a>
-          </div>
-          <div class="social-wrapper">
-            <a
-              href="https://github.com/somosliana"
-              target="_blank"
-              title="Github"
-              >
-              <svg class="bi" width="24" height="24" fill="currentColor">
-                <use xlink:href="/assets/bootstrap-icons.svg#github"/>
-              </svg>
-            </a>
-          </div>
+          {% for item in site.social %}
+            <div class="social-wrapper">
+              <a href="{{ item.url }}" target="_blank" title="{{ item.title }}">
+                <svg class="bi" width="24" height="24" fill="currentColor">
+                  <use xlink:href="/assets/bootstrap-icons.svg#{{ item.icon }}"/>
+                </svg>
+              </a>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </div>
