@@ -1,11 +1,9 @@
 {
     "private": true,
     "scripts": {
-        "clean": "rm -rf dist",
         "start": "eleventy --serve",
-        "solid.svg": "code node_modules/@fortawesome/fontawesome-free/sprites/solid.svg",
-        "regular.svg": "code node_modules/@fortawesome/fontawesome-free/sprites/regular.svg",
-        "brands.svg": "code node_modules/@fortawesome/fontawesome-free/sprites/brands.svg"
+        "clean": "rm -rf dist",
+        "build": "eleventy"
     },
     "dependencies": {
         "@11ty/eleventy": "^0.12.1",

@@ -1,14 +1,11 @@
-module.exports = function (config) {
-  config.addPassthroughCopy("assets");
-};
 const minifyHtml = require('./src/minifyHtml')
 const browsersyncConfig = require('./src/browsersyncConfig')
 
 const isProduction = process.env.NODE_ENV === 'production'
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({
-    'assets': 'assets',
+module.exports = function (config) {
+  config.addPassthroughCopy({
+    'www/assets': 'assets',
     'netlifycms.yml': 'admin/config.yml',
     'site/favicon.ico': 'favicon.ico',
     'node_modules/alpinejs/dist/cdn.min.js': 'alpine.min.js',
@@ -16,15 +13,15 @@ module.exports = function (eleventyConfig) {
   })
 
   if (isProduction) {
-    eleventyConfig.addTransform('minifyHtml', minifyHtml)
+    config.addTransform('minifyHtml', minifyHtml)
   } else {
-    eleventyConfig.setBrowserSyncConfig(browsersyncConfig)
+    config.setBrowserSyncConfig(browsersyncConfig)
   }
 
   return {
     dir: {
-      input: 'site',
-      output: 'dist',
+      input: 'www',
+      output: 'public',
     },
   }
 }
